@@ -16,7 +16,7 @@ let resumeData = {
       "className": "fa fa-github"
     }
   ],
-  "aboutme": "I am student ...",
+  "aboutme": "I am student at Stanford studying computer science.",
   "address": "Stanford, CA",
   "website": "https://kaikato.github.io",
   "education": [
