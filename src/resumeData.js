@@ -1,9 +1,9 @@
 let resumeData = {
   "imagebaseurl": "https://github.com/kaikato",
   "name": "Kai Kato",
-  "role": "Student at Stanford University",
+  "role": "master's student at Stanford University",
   "linkedinId": "kai-kato",
-  "roleDescription": "I am interested in cyber...",
+  "roleDescription": "Most of my academic focus has been on computer and network security. I am also deeply passionate about international policy, especially around emerging digital threats.",
   "socialLinks": [
     {
       "name": "linkedin",
@@ -16,7 +16,7 @@ let resumeData = {
       "className": "fa fa-github"
     }
   ],
-  "aboutme": "I am student at Stanford studying computer science.",
+  "aboutme": "I am...",
   "address": "Stanford, CA",
   "website": "https://kaikato.github.io",
   "education": [
