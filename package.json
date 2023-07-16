@@ -2,19 +2,19 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kaikato.github.io/react-gh-pages",
+  "homepage": "https://kaikato.github.io/",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
