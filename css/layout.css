@@ -350,6 +350,11 @@ ul#nav li.current a {
    margin-top: 6px;
 }
 
+#resume .skills {
+   margin-top: 6px;
+   margin-bottom: 18px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
