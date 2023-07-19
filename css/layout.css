@@ -598,6 +598,10 @@ ul#nav li.current a {
    margin-left: 5px;
 }
 
+#portfolio .main-col {
+   margin-right: 10%;
+}
+
 /* Portfolio Content */
 #portfolio-wrapper .columns {
    margin-bottom: 36px;
