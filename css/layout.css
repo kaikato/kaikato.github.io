@@ -56,7 +56,7 @@ header .banner {
    margin: 0 auto;
    width: 85%;
    padding-bottom: 30px;
-   s text-align: center;
+   text-align: center;
 }
 
 header .banner-text {
@@ -210,7 +210,7 @@ ul#nav li a:active {
 }
 
 ul#nav li.current a {
-   color: #F06000;
+   color: #00acf0;
 }
 
 
@@ -576,6 +576,15 @@ ul#nav li.current a {
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
+}
+
+#portfolio h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#portfolio .card-text {
+   font: 15px/24px 'opensans', sans-serif;
+   color: rgb(150, 150, 150)
 }
 
 /* Portfolio Content */
