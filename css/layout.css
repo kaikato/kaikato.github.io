@@ -584,7 +584,18 @@ ul#nav li.current a {
 
 #portfolio .card-text {
    font: 15px/24px 'opensans', sans-serif;
-   color: rgb(150, 150, 150)
+   color: rgb(150, 150, 150);
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 4;
+   /* number of lines to show */
+   -webkit-box-orient: vertical;
+   white-space: normal;
+}
+
+#portfolio .github-button {
+   margin-left: 5px;
 }
 
 /* Portfolio Content */
