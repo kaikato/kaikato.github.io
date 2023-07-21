@@ -137,7 +137,7 @@
       width: 48px;
       height: 48px;
       text-align: left;
-      background-color: #CC5200;
+      background-color: #0052cc8a;
       position: relative;
       border: none;
       float: right;
@@ -325,6 +325,10 @@
    /* ----------------------------------------------------------------- */
    #portfolio-wrapper .columns {
       margin-bottom: 40px;
+   }
+
+   #portfolio .grid {
+      margin-left: 0%;
    }
 
    .popup-modal {
