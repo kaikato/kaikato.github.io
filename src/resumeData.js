@@ -16,23 +16,30 @@ let resumeData = {
       "className": "fa fa-github"
     }
   ],
-  "aboutme": "I am...",
+  "aboutme": `My two passions: computers and policy! I love to code and I love to think about pressing 
+  global issues. How did I get here? I started my college career with an interest in international 
+  relations. I took lots of exciting courses, learning about international security and gaining skills 
+  in research and communication. I worked internships with the US Department of State, a Congressional office, 
+  a California State Senator’s office, and a local nonprofit. At the same time, I encountered computer science 
+  at Stanford. I realized I thoroughly enjoyed programming and learning about computer systems. I decided to 
+  pursue further education in computer science, with the aim of starting a career as a developer, ideally in a 
+  security- and policy-adjacent role. I look forward to seeing where these passions will take me in life!`,
   "address": "Stanford, CA",
   "website": "https://kaikato.github.io",
   "education": [
     {
       "UniversityName": "Stanford University",
-      "specialization": "Computer Science (Computer and Network Security)",
+      "specialization": "MS, Computer Science (Computer and Network Security)",
       "MonthOfPassing": "Sept",
       "YearOfPassing": "2023",
       "Achievements": ""
     },
     {
       "UniversityName": "Stanford University",
-      "specialization": "International Relations (International Security and East/South Asia)",
+      "specialization": "BA, International Relations (International Security and East/South Asia)",
       "MonthOfPassing": "Jun",
       "YearOfPassing": "2023",
-      "Achievements": "Honors in International Security Studies; Phi Beta Kappa; William J. Perry Award for exceptional thesis work"
+      "Achievements": "Awards: Phi Beta Kappa; Honors in International Security Studies; William J. Perry Award for exceptional thesis work"
     }
   ],
   "work": [
@@ -99,47 +106,50 @@ let resumeData = {
   "portfolio": [
     {
       "name": "Photo-Sharing Web App",
-      "description": "As part of CS142, I built a...",
+      "description": `As part of CS142, I built a full-stack web application using React.JS. More details to come.`,
       "imgurl": "/images/react-photo.jpg",
       "githuburl": "https://github.com/kaikato/web-app"
     },
     {
       "name": "Password Manager API",
-      "description": "As part of CS255, I built a...",
+      "description": `As part of CS255, I built out the functionalities of a cryptographically secure
+      password management and storage system. More details to come.`,
       "imgurl": "images/password-manager.jpg",
       "githuburl": "https://github.com/kaikato/password-manager"
     },
     {
       "name": "Encrypted Chat Client",
-      "description": "As part of CS255, I implemented the API of an end-to-end encrypted chat client. This chat client did this, and this, and this. I implemented the API of an end-to-end encrypted chat client",
+      "description": `As part of CS255, I implemented the API of an end-to-end encrypted chat client. 
+      More details to come.`,
       "imgurl": "images/encrypted-chat.png",
       "githuburl": "https://github.com/kaikato/chat-client"
     },
     {
       "name": "Baremetal Raspberry Pi OS",
-      "description": "As part of CS140E, I developed an operating system for a Raspberry Pi.",
+      "description": "As part of CS140E, I developed an operating system for a baremetal Raspberry Pi. More details to come.",
       "imgurl": "images/rpi.jpg",
       "githuburl": "https://github.com/kaikato/rpi-os"
     },
     {
       "name": "Internet Infrastructure",
-      "description": "As part of CS144, I built...",
+      "description": `As part of CS144, I implemented many components of the modern internet stack in C++.
+      More details to come.`,
       "imgurl": "images/internet.jpg",
       "githuburl": "https://github.com/kaikato/internet-stack"
     },
     {
       "name": "Discord Bot",
-      "description": "As part of CS152, I built...",
+      "description": `As part of CS152, I built a content moderation discord bot in Python. More details to come.`,
       "imgurl": "images/discord.png"
     },
     {
       "name": "Splitwise Smart Contract",
-      "description": "As part of CS251, I built...",
+      "description": "As part of CS251, I built a distributed app using Solidity on an Ethereum testnet. More details to come.",
       "imgurl": "images/solidity-nedir.png"
     },
     {
       "name": "Crypto Exchange",
-      "description": "As part of CS251, I built...",
+      "description": "As part of CS251, I developed a smart contract acting as a crypto exchange, and deployed a native token. More details to come.",
       "imgurl": "images/blockchain.jpg"
     }
   ]

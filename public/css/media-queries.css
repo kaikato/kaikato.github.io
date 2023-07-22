@@ -69,6 +69,10 @@
       width: 50%;
    }
 
+   #about .main-col {
+      text-align: justify;
+   }
+
    /* Resume Section
    ------------------------------------------------------------------- */
    #resume h1 {
@@ -77,6 +81,7 @@
 
    #resume .main-col {
       padding-right: 5%;
+      text-align: justify;
    }
 
    /* Testimonials Section

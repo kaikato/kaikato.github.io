@@ -72,34 +72,32 @@ export default class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-            <div className='skills'>
-              <Grid container spacing={1} className='row item skills'>
-                <Grid item xs={12}>
-                  <strong>Programming Languages</strong>
-                </Grid>
-                {resumeData.programmingLanguages && resumeData.programmingLanguages.map((item, index) => {
-                  return (
-                    <Grid item key={"lang" + index}>
-                      <Chip sx={{ height: '3.5rem', width: '10rem' }}
-                        label={
-                          <Typography variant="subtitle1" sx={{ fontSize: '1.5rem', fontFamily: 'Arial', fontWeight: 'bold' }}>
-                            {item}
-                          </Typography>
-                        }
-                      />
-                    </Grid>
-                  )
-                })}
+            <Grid container spacing={1} className='skills'>
+              <Grid item xs={12}>
+                <strong>Programming Languages</strong>
               </Grid>
-            </div>
-            <Grid container spacing={1} className='row item skills'>
+              {resumeData.programmingLanguages && resumeData.programmingLanguages.map((item, index) => {
+                return (
+                  <Grid item key={"lang" + index}>
+                    <Chip sx={{ height: '3.5rem' }}
+                      label={
+                        <Typography variant="subtitle1" sx={{ fontSize: '1.5rem', fontFamily: 'Arial', fontWeight: 'bold' }}>
+                          {item}
+                        </Typography>
+                      }
+                    />
+                  </Grid>
+                )
+              })}
+            </Grid>
+            <Grid container spacing={1} className='skills'>
               <Grid item xs={12}>
                 <strong>Tools</strong>
               </Grid>
               {resumeData.tools && resumeData.tools.map((item, index) => {
                 return (
                   <Grid item key={"tool" + index}>
-                    <Chip sx={{ height: '3.5rem', width: '10rem' }}
+                    <Chip sx={{ height: '3.5rem' }}
                       label={
                         <Typography variant="subtitle1" sx={{ fontSize: '1.5rem', fontFamily: 'Arial', fontWeight: 'bold' }}>
                           {item}
@@ -110,14 +108,14 @@ export default class Resume extends Component {
                 )
               })}
             </Grid>
-            <Grid container spacing={1} className='row item skills'>
+            <Grid container spacing={1} className='skills'>
               <Grid item xs={12}>
                 <strong>Topics</strong>
               </Grid>
               {resumeData.topics && resumeData.topics.map((item, index) => {
                 return (
                   <Grid item key={"topics" + index}>
-                    <Chip sx={{ height: '3.5rem', width: '10rem' }}
+                    <Chip sx={{ height: '3.5rem' }}
                       label={
                         <Typography variant="subtitle1" sx={{ fontSize: '1.5rem', fontFamily: 'Arial', fontWeight: 'bold' }}>
                           {item}
@@ -128,14 +126,14 @@ export default class Resume extends Component {
                 )
               })}
             </Grid>
-            <Grid container spacing={1} className='row item skills'>
+            <Grid container spacing={1} className='skills'>
               <Grid item xs={12}>
                 <strong>Non-Technical Skills</strong>
               </Grid>
               {resumeData.softSkills && resumeData.softSkills.map((item, index) => {
                 return (
                   <Grid item key={"softSkills" + index}>
-                    <Chip sx={{ height: '3.5rem', width: '10rem' }}
+                    <Chip sx={{ height: '3.5rem' }}
                       label={
                         <Typography variant="subtitle1" sx={{ fontSize: '1.5rem', fontFamily: 'Arial', fontWeight: 'bold' }}>
                           {item}
